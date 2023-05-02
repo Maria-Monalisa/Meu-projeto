@@ -50,7 +50,7 @@ header{
 #capa{
     height: 400px; /* altura da div*/
     background-color: rgb(101, 236, 185); /*definir a cor de fundo*/
-    background-image: url(images/༊_·˚\ header.jfif); /*fota de fundo da capa*/
+    background-image: url(images/༊_·˚\ header.jfif); /*foto de fundo da capa*/
     background-repeat: no-repeat; /*nao repete a foto de fundo*/
     background-position: 0px 0px ;
     background-size: cover; /*ajusta o tamanho da imagem dentro da div*/
