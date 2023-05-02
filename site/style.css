@@ -1,5 +1,5 @@
 :root{ /*define configuraçao do site*/ 
-    --corfundo:  rgb(255, 255, 255); /* variavel com cor roxo*/
+    --corfundo:  rgb(197, 127, 238); /* variavel com cor roxo*/
 
     --larguramaxima: 1000px; /* largura MÁXIMA*/
     --larguraminima: 250px; /* largura MINIMA*/
@@ -11,11 +11,11 @@
 }
 
 body{
-    background-color: var(--corfundo); /* define o cor de fundo do elemento*/
+    background-color: rgb(255, 255, 255);  /* define o cor de fundo do elemento*/
 
 }
 header, main, footer{
-    background-color: rgb(214, 188, 255); /* cor do fundo roxo*/
+    background-color: rgb(198, 168, 226); /* cor do fundo roxo*/
     max-width: var(--larguramaxima); /* largura MÁXIMA*/
     min-width: var(--larguraminima); /* largura MINIMA*/
     margin: auto; /*centralizar*/
@@ -24,6 +24,7 @@ header, main, footer{
 
 header{
     position: relative;
+    
 }
 
 #sociais{
@@ -48,8 +49,8 @@ header{
 
 #capa{
     height: 400px; /* altura da div*/
-    background-color: rgb(214, 188, 255); /*definir a cor de fundo*/
-    background-image: url('https://i.pinimg.com/736x/65/df/99/65df996eb541e6b01170512facf99d77.jpg'); /*fota de fundo da capa*/
+    background-color: rgb(101, 236, 185); /*definir a cor de fundo*/
+    background-image: url(images/༊_·˚\ header.jfif); /*fota de fundo da capa*/
     background-repeat: no-repeat; /*nao repete a foto de fundo*/
     background-position: 0px 0px ;
     background-size: cover; /*ajusta o tamanho da imagem dentro da div*/
@@ -57,6 +58,7 @@ header{
     flex-direction: column; 
     justify-content: center; /* vertical*/
     align-items: center; /* horizontal*/
+    border-radius: 4%;
 
 }
 
@@ -65,14 +67,14 @@ header{
     position: absolute;
     left: 50px;
     top: 200px; 
-    border-radius: 50%;
+    border-radius: 40%;
 }
 
 #capa h1{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 #capa p{
-    color: white;
+    color: rgb(239, 217, 253);
 }
 
 /* MENU */
@@ -89,11 +91,12 @@ nav{
     position: absolute;
     display: flex;
    justify-content: space-between; /* distrubui os elementos internos horizontalmente*/
+   
     
 }
 
 .menu{
-    background-color: rgb(174, 92, 250); /* cor de fundo menu */
+    background-color: rgb(207, 177, 236); /* cor de fundo menu */
     padding: 5px 15px 5px 15px; /*escapamento interno dos botoes*/
     border-radius: 100px;
     text-decoration: none; /*tirar o sublinhado*/
@@ -101,5 +104,9 @@ nav{
 }
 
 .menu:hover{
-    background-color: rgb(132, 0, 255);
+    background-color: rgb(165, 110, 216);
+}
+
+#titulo{
+    color: rgb(152, 60, 238);
 }
